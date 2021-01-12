@@ -98,5 +98,10 @@ namespace NotesApp
                 _notes.Remove(noteToRemove);
             }
         }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            ClearForm();
+        }
     }
 }
