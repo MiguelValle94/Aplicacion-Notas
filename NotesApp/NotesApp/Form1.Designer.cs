@@ -101,6 +101,7 @@ namespace NotesApp
             this.btnRead.TabIndex = 7;
             this.btnRead.Text = "Read";
             this.btnRead.UseVisualStyleBackColor = true;
+            this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
             // 
             // btnDelete
             // 
