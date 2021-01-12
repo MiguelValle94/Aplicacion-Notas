@@ -50,11 +50,11 @@ namespace NotesApp
         {
             if (grdNotes.SelectedRows != null)
             {
-                    string title = grdNotes.SelectedCells[0].Value.ToString();
-                    string notes = LookForNote(title);
+                string title = grdNotes.SelectedCells[0].Value.ToString();
+                string notes = LookForNote(title);
 
-                    txtTitle.Text = title;
-                    txtNotes.Text = notes;
+                txtTitle.Text = title;
+                txtNotes.Text = notes;
             }
         }
 
@@ -68,6 +68,35 @@ namespace NotesApp
                 }
             }
             return "";
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (grdNotes.SelectedRows != null)
+            {
+                string title = grdNotes.SelectedCells[0].Value.ToString();
+                DeleteNote(title);
+
+                ClearForm();
+                PopulateNotes();
+            }
+        }
+
+        private void DeleteNote(string title)
+        {
+            Note noteToRemove = null;
+            foreach (Note item in _notes)
+            {
+                if (item.Title == title)
+                {
+                    noteToRemove = item;
+                }
+            }
+
+            if (noteToRemove != null)
+            {
+                _notes.Remove(noteToRemove);
+            }
         }
     }
 }
