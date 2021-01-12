@@ -50,31 +50,24 @@ namespace NotesApp
         {
             if (grdNotes.SelectedRows != null)
             {
-                if (grdNotes.SelectedCells.Count > 1)
-                {
                     string title = grdNotes.SelectedCells[0].Value.ToString();
-                    string notes = grdNotes.SelectedCells[1].Value.ToString();
+                    string notes = LookForNote(title);
 
                     txtTitle.Text = title;
                     txtNotes.Text = notes;
-                } else
-                {
-                    string title = grdNotes.SelectedCells[0].Value.ToString();
-                    string notes = "";
-                    foreach (Note item in _notes)
-                    {
-                        if (item.Title == grdNotes.SelectedCells[0].Value.ToString())
-                        {
-                            notes = item.Notes;
-                        }
-                    }
-
-                    txtTitle.Text = title;
-                    txtNotes.Text = notes;
-                }
-               
-
             }
+        }
+
+        private string LookForNote(string title)
+        {
+            foreach (Note item in _notes)
+            {
+                if (item.Title == title)
+                {
+                    return item.Notes;
+                }
+            }
+            return "";
         }
     }
 }
