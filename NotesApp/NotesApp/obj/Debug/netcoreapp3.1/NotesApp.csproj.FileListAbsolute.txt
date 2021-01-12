@@ -1,0 +1,15 @@
+C:\MIGUEL\FRONTEND\NET\Aplicacion-Notas\NotesApp\NotesApp\bin\Debug\netcoreapp3.1\NotesApp.exe
+C:\MIGUEL\FRONTEND\NET\Aplicacion-Notas\NotesApp\NotesApp\bin\Debug\netcoreapp3.1\NotesApp.deps.json
+C:\MIGUEL\FRONTEND\NET\Aplicacion-Notas\NotesApp\NotesApp\bin\Debug\netcoreapp3.1\NotesApp.runtimeconfig.json
+C:\MIGUEL\FRONTEND\NET\Aplicacion-Notas\NotesApp\NotesApp\bin\Debug\netcoreapp3.1\NotesApp.runtimeconfig.dev.json
+C:\MIGUEL\FRONTEND\NET\Aplicacion-Notas\NotesApp\NotesApp\bin\Debug\netcoreapp3.1\NotesApp.dll
+C:\MIGUEL\FRONTEND\NET\Aplicacion-Notas\NotesApp\NotesApp\bin\Debug\netcoreapp3.1\NotesApp.pdb
+C:\MIGUEL\FRONTEND\NET\Aplicacion-Notas\NotesApp\NotesApp\obj\Debug\netcoreapp3.1\NotesApp.csprojAssemblyReference.cache
+C:\MIGUEL\FRONTEND\NET\Aplicacion-Notas\NotesApp\NotesApp\obj\Debug\netcoreapp3.1\NotesApp.Form1.resources
+C:\MIGUEL\FRONTEND\NET\Aplicacion-Notas\NotesApp\NotesApp\obj\Debug\netcoreapp3.1\NotesApp.csproj.GenerateResource.cache
+C:\MIGUEL\FRONTEND\NET\Aplicacion-Notas\NotesApp\NotesApp\obj\Debug\netcoreapp3.1\NotesApp.AssemblyInfoInputs.cache
+C:\MIGUEL\FRONTEND\NET\Aplicacion-Notas\NotesApp\NotesApp\obj\Debug\netcoreapp3.1\NotesApp.AssemblyInfo.cs
+C:\MIGUEL\FRONTEND\NET\Aplicacion-Notas\NotesApp\NotesApp\obj\Debug\netcoreapp3.1\NotesApp.csproj.CoreCompileInputs.cache
+C:\MIGUEL\FRONTEND\NET\Aplicacion-Notas\NotesApp\NotesApp\obj\Debug\netcoreapp3.1\NotesApp.dll
+C:\MIGUEL\FRONTEND\NET\Aplicacion-Notas\NotesApp\NotesApp\obj\Debug\netcoreapp3.1\NotesApp.pdb
+C:\MIGUEL\FRONTEND\NET\Aplicacion-Notas\NotesApp\NotesApp\obj\Debug\netcoreapp3.1\NotesApp.genruntimeconfig.cache
